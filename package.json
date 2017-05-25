@@ -1,0 +1,23 @@
+{
+  "name": "tomato",
+  "version": "0.0.1",
+  "dependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-concat-vendor": "*",
+    "gulp-uglify": "*",
+    "main-bower-files": "*",
+    "gulp-minify-css" : "*",
+    "gulp-notify":"*",
+    "gulp-inject": "*",
+    "gulp-run-sequence": "*",
+    "stream-series": "*",
+    "gulp-gzip": "*",
+    "gulp-clone": "*"
+  },
+  "scripts": {
+    "prebuild": "npm install",
+    "build": "gulp"
+  }
+}
